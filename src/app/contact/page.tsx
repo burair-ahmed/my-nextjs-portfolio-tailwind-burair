@@ -37,7 +37,7 @@ export default function Experience() {
             <input
               className="max-smallscreens:ml-6 max-768scr:ml-8 w-[15rem] h-[3rem] rounded-[0.75rem]  pl-2 bg-[#f6f6f6] border-[#c6bfbfca] border-[1px]"
               type="text"
-              placeholder="Mustafa"
+              placeholder="Burair Ahmed"
             />
 
             <label

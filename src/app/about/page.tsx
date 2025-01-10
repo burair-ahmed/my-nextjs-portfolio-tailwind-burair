@@ -1,56 +1,39 @@
-import MustafaImg2 from "../components/mustafa-Image/mustafa2";
+import BurairImg2 from "../components/burair-Image/burair2";
 
 export default function About() {
   return (
-    
-      <div className=" flex mt-36">
-        <div className="  ml-6 ">
-          <div className="  font-sans	mb-7 text-5xl	">About me</div>
-          <div className="font-sans w-auto">
-            Hello! I'm Mustafa Yamin, an enthusiast for learning AI developer and fullstack
-            web development with a strong foundation in the fundamentals of programming.
-            I'm currently pursuing a Bachelor of Business Administration (BBA)
-            from FUUAST University while honing my technical expertise through
-            courses in artificial intelligence, web development, and cloud
-            computing at GIAIC.
-            <br />
-            Over the years, I've had the opportunity to work on exciting
-            projects, including serving as a frontend developer for the NASA
-            Space Apps Challenge Hackathon and coordinating engaging sessions at Stream
-            Academy International. I also have experience volunteering for
-            organizations like DI Pakistan and Mommyology, where I facilitated
-            innovative learning experiences for children and teens.
-          </div>
-          <div className="font-sans mb-5 mt-7 text-4xl">My Journey</div>
-
-          <div className="font-sans w-auto">
-            My journey began with a curiosity for technology and how it can be
-            used to make the world a better place. Starting with simple web
-            development, I quickly moved to mastering HTML, CSS, TypeScript, and
-            currently I am learning Next.js and TailwindCSS. This evolved into a deep
-            passion for making web-apps.
-         
-          </div>
-
-          <div className="font-sans mb-5 mt-7 text-4xl">Beyond Code</div>
-          <div className="font-sans w-auto">
-            When I'm not coding or developing, I enjoy indulging in physical
-            activities like Cricket, Swiming, and Football. You can say these
-            are my hobies. I also read books based on self improvment.
-          </div>
-          <div className="font-sans mb-5 mt-7 text-4xl">My Vision</div>
-          <div className="  font-sans w-auto pb-9">
-            I believe in the transformative power of technology. My vision is to
-            create solutions that enhance everyday life, whether it's through
-            smarter AI systems, innovative web platforms, or scalable cloud
-            solutions. I'm always looking for ways to push the envelope and
-            collaborate with others who share a similar drive.
-          </div>
+    <section className="mt-40 px-6 text-center items-center">
+       
+      <div className="flex flex-col justify-center items-center">
+      <div className="mb-8 text-center">
+          <BurairImg2 />
         </div>
-
-        <MustafaImg2 />
+        <h1 className="text-5xl font-bold mb-8">About Me</h1>
+        <p className="text-lg leading-relaxed max-w-3xl mb-8">
+          Hi, I am Burair Ahmed, a dedicated AI developer and full-stack web developer with a deep-rooted passion for programming and technology. I have completed my intermediate, I have been expanding my technical expertise through specialized courses in artificial intelligence, web development, and cloud computing at GIAIC.
+        </p>
       </div>
-   
-    
+
+      <div className="mt-16">
+        <h2 className="text-4xl font-semibold mb-6">My Journey</h2>
+        <p className="text-lg leading-relaxed max-w-3xl mx-auto mb-8">
+          My journey into technology began with a simple curiosity about how software can enhance lives. Starting with foundational web development, I progressed to mastering HTML, CSS, and TypeScript. Today, I am delving into advanced technologies like Next.js and TailwindCSS, driven by my passion for building user-friendly web applications.
+        </p>
+      </div>
+
+      <div className="mt-16">
+        <h2 className="text-4xl font-semibold mb-6">Beyond Code</h2>
+        <p className="text-lg leading-relaxed max-w-3xl mx-auto mb-8">
+          When I am not coding, I enjoy staying active through gaming and little bit sports like cricket. I am also an active learner trying to  learn different things.
+        </p>
+      </div>
+
+      <div className="mt-16">
+        <h2 className="text-4xl font-semibold mb-6">My Vision</h2>
+        <p className="text-lg leading-relaxed max-w-3xl mx-auto">
+          I believe technology has the power to revolutionize daily life. My vision is to create innovative solutions that simplify tasks, whether through intelligent AI systems, cutting-edge web platforms, or scalable cloud technologies. Collaboration with like-minded individuals motivates me to push the boundaries of what's possible.
+        </p>
+      </div>
+    </section>
   );
 }
